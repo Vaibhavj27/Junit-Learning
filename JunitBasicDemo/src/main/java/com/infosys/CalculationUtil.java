@@ -17,4 +17,9 @@ public class CalculationUtil {
     public int Division(int a,int b){
         return a/b;
     }
+
+    public Boolean isEven(int a)
+    {
+        return (a%2==0);
+    }
 }
